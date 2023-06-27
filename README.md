@@ -60,3 +60,8 @@ AndroidManifest.xml should look like below
 
 ### IOS setup
 follow this [solved issue](https://github.com/flutter-webrtc/flutter-webrtc/issues/1383) for ios setup 
+
+#### TLDR;
+- Make sure you are using latest ios version at the time of writing it is 16
+- Setup Broadcast Extension using xcode following [official setup](https://github.com/flutter-webrtc/flutter-webrtc/wiki/iOS-Screen-Sharing),[detailed explanation](https://docs.videosdk.live/react-native/guide/video-and-audio-calling-api-sdk/extras/react-native-ios-screen-share)
+- finally make sure you have enabled `background Modes` since background processing is only allowed with voip operations so make sure you are using callkeep as used in this example project 
