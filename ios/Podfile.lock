@@ -1,0 +1,65 @@
+PODS:
+  - CryptoSwift (1.7.1)
+  - Flutter (1.0.0)
+  - flutter_callkeep (0.3.0):
+    - CryptoSwift
+    - Flutter
+  - flutter_foreground_task (0.0.1):
+    - Flutter
+  - flutter_webrtc (0.9.25):
+    - Flutter
+    - WebRTC-SDK (= 104.5112.16)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.0):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - WebRTC-SDK (104.5112.16)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_callkeep (from `.symlinks/plugins/flutter_callkeep/ios`)
+  - flutter_foreground_task (from `.symlinks/plugins/flutter_foreground_task/ios`)
+  - flutter_webrtc (from `.symlinks/plugins/flutter_webrtc/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - WebRTC-SDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_callkeep:
+    :path: ".symlinks/plugins/flutter_callkeep/ios"
+  flutter_foreground_task:
+    :path: ".symlinks/plugins/flutter_foreground_task/ios"
+  flutter_webrtc:
+    :path: ".symlinks/plugins/flutter_webrtc/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+
+SPEC CHECKSUMS:
+  CryptoSwift: d3d18dc357932f7e6d580689e065cf1f176007c1
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_callkeep: e94ee31d8797776cee91bf288c62ca4aa89fb5a8
+  flutter_foreground_task: 21ef182ab0a29a3005cc72cd70e5f45cb7f7f817
+  flutter_webrtc: ae7ab6f74d3c4f186594a74863f11433e7ab148a
+  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
+  permission_handler_apple: 8f116445eff3c0e7c65ad60f5fef5490aa94b4e4
+  shared_preferences_foundation: e2dae3258e06f44cc55f49d42024fd8dd03c590c
+  WebRTC-SDK: 566e58d2916cb79d770350169a449ea523f5db7c
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.11.3
